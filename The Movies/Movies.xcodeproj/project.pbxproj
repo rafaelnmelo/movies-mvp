@@ -45,7 +45,7 @@
 		2D63DB0E25B86DAD00801ABE /* SF-Pro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro.ttf"; sourceTree = "<group>"; };
 		2D63DB2425B87D1200801ABE /* GenericTableViewCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericTableViewCellController.swift; sourceTree = "<group>"; };
 		2D63DB2725B87D5B00801ABE /* GenericTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GenericTableViewCell.xib; sourceTree = "<group>"; };
-		2D75B4DA25B735F800A13982 /* The Movies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Movies.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D75B4DA25B735F800A13982 /* Movies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Movies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D75B4DD25B735F800A13982 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D75B4DF25B735F800A13982 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2D75B4E125B735F800A13982 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
@@ -146,7 +146,7 @@
 		2D75B4D125B735F800A13982 = {
 			isa = PBXGroup;
 			children = (
-				2D75B4DC25B735F800A13982 /* The Movies */,
+				2D75B4DC25B735F800A13982 /* Movies */,
 				2D75B4DB25B735F800A13982 /* Products */,
 				2EAFC20C918F7D930C2D596C /* Pods */,
 				7D80DFA233688E6EEF401AD6 /* Frameworks */,
@@ -156,12 +156,12 @@
 		2D75B4DB25B735F800A13982 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2D75B4DA25B735F800A13982 /* The Movies.app */,
+				2D75B4DA25B735F800A13982 /* Movies.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2D75B4DC25B735F800A13982 /* The Movies */ = {
+		2D75B4DC25B735F800A13982 /* Movies */ = {
 			isa = PBXGroup;
 			children = (
 				2D75B4F525B736B100A13982 /* Application */,
@@ -172,7 +172,7 @@
 				2D57D39925B9A72400C1A6D7 /* UserDefaultsManager */,
 				2D75B4F625B736E700A13982 /* Utils */,
 			);
-			path = "The Movies";
+			path = Movies;
 			sourceTree = "<group>";
 		};
 		2D75B4F225B7366B00A13982 /* Resources */ = {
@@ -365,9 +365,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2D75B4D925B735F800A13982 /* The Movies */ = {
+		2D75B4D925B735F800A13982 /* Movies */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D75B4EE25B735F800A13982 /* Build configuration list for PBXNativeTarget "The Movies" */;
+			buildConfigurationList = 2D75B4EE25B735F800A13982 /* Build configuration list for PBXNativeTarget "Movies" */;
 			buildPhases = (
 				FAEBBB7D62825D06BD8606A8 /* [CP] Check Pods Manifest.lock */,
 				2D75B4D625B735F800A13982 /* Sources */,
@@ -379,9 +379,9 @@
 			);
 			dependencies = (
 			);
-			name = "The Movies";
+			name = Movies;
 			productName = "The Movies";
-			productReference = 2D75B4DA25B735F800A13982 /* The Movies.app */;
+			productReference = 2D75B4DA25B735F800A13982 /* Movies.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -398,7 +398,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2D75B4D525B735F800A13982 /* Build configuration list for PBXProject "The Movies" */;
+			buildConfigurationList = 2D75B4D525B735F800A13982 /* Build configuration list for PBXProject "Movies" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -411,7 +411,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2D75B4D925B735F800A13982 /* The Movies */,
+				2D75B4D925B735F800A13982 /* Movies */,
 			);
 		};
 /* End PBXProject section */
@@ -657,8 +657,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rafaelnmelo.The-Movies";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rafaelnmelo.Movies;
+				PRODUCT_NAME = Movies;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -678,8 +678,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rafaelnmelo.The-Movies";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rafaelnmelo.Movies;
+				PRODUCT_NAME = Movies;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -688,7 +688,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D75B4D525B735F800A13982 /* Build configuration list for PBXProject "The Movies" */ = {
+		2D75B4D525B735F800A13982 /* Build configuration list for PBXProject "Movies" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D75B4EC25B735F800A13982 /* Debug */,
@@ -697,7 +697,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D75B4EE25B735F800A13982 /* Build configuration list for PBXNativeTarget "The Movies" */ = {
+		2D75B4EE25B735F800A13982 /* Build configuration list for PBXNativeTarget "Movies" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D75B4EF25B735F800A13982 /* Debug */,
