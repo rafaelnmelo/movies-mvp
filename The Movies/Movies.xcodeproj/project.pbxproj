@@ -35,6 +35,8 @@
 		2D7F0B1125B9F8D300EF23DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D75B4E625B735F800A13982 /* Assets.xcassets */; };
 		2D7F0B1925BA0A4600EF23DC /* FavoritesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7F0B1825BA0A4600EF23DC /* FavoritesPresenter.swift */; };
 		2D7F0B3425BA2E4B00EF23DC /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7F0B3325BA2E4B00EF23DC /* FavoritesViewController.swift */; };
+		2DE01F6725D171CD0094EBAB /* CollectionReusableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE01F6625D171CD0094EBAB /* CollectionReusableViewController.swift */; };
+		2DE01F6A25D172140094EBAB /* CollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DE01F6925D172140094EBAB /* CollectionReusableView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +70,8 @@
 		2D75B56F25B7696400A13982 /* MovieDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MovieDetail.storyboard; sourceTree = "<group>"; };
 		2D7F0B1825BA0A4600EF23DC /* FavoritesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesPresenter.swift; sourceTree = "<group>"; };
 		2D7F0B3325BA2E4B00EF23DC /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		2DE01F6625D171CD0094EBAB /* CollectionReusableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionReusableViewController.swift; sourceTree = "<group>"; };
+		2DE01F6925D172140094EBAB /* CollectionReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionReusableView.xib; sourceTree = "<group>"; };
 		5293A43B2BB56FDC90B51C31 /* Pods-The Movies.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Movies.release.xcconfig"; path = "Target Support Files/Pods-The Movies/Pods-The Movies.release.xcconfig"; sourceTree = "<group>"; };
 		8273F304310CD7003BFCE1C4 /* Pods-The Movies.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Movies.debug.xcconfig"; path = "Target Support Files/Pods-The Movies/Pods-The Movies.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -214,6 +218,7 @@
 		2D75B4F625B736E700A13982 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				2DE01F6525D1707F0094EBAB /* CollectionReusableView */,
 				2D63DB2325B87CDA00801ABE /* GenericTableViewCell */,
 				2D75B4F725B736FA00A13982 /* GenericCollectionCell */,
 			);
@@ -345,6 +350,15 @@
 			path = Presenter;
 			sourceTree = "<group>";
 		};
+		2DE01F6525D1707F0094EBAB /* CollectionReusableView */ = {
+			isa = PBXGroup;
+			children = (
+				2DE01F6625D171CD0094EBAB /* CollectionReusableViewController.swift */,
+				2DE01F6925D172140094EBAB /* CollectionReusableView.xib */,
+			);
+			path = CollectionReusableView;
+			sourceTree = "<group>";
+		};
 		2EAFC20C918F7D930C2D596C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -426,6 +440,7 @@
 				2D75B53525B7461400A13982 /* Movies.storyboard in Resources */,
 				2D75B56625B7682A00A13982 /* GenericCollectionViewCell.xib in Resources */,
 				2D7F0B1125B9F8D300EF23DC /* Assets.xcassets in Resources */,
+				2DE01F6A25D172140094EBAB /* CollectionReusableView.xib in Resources */,
 				2D75B53725B7471500A13982 /* LaunchScreen.storyboard in Resources */,
 				2D63DB0F25B86DAD00801ABE /* SF-Pro.ttf in Resources */,
 			);
@@ -495,6 +510,7 @@
 				2D75B56925B7685200A13982 /* GenericCollectionViewCellController.swift in Sources */,
 				2D75B55D25B75E9400A13982 /* MovieListModel.swift in Sources */,
 				2D75B4DE25B735F800A13982 /* AppDelegate.swift in Sources */,
+				2DE01F6725D171CD0094EBAB /* CollectionReusableViewController.swift in Sources */,
 				2D75B4E025B735F800A13982 /* SceneDelegate.swift in Sources */,
 				2D57D39B25B9A77200C1A6D7 /* UserDefaultsManager.swift in Sources */,
 				2D75B54825B74C9700A13982 /* ResponseError.swift in Sources */,
