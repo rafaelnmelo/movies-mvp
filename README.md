@@ -13,9 +13,7 @@ Alamofire: utilizada para facilitar o gerenciamento de requisições da API do The
 
 Kingfisher: utilizado para efetuar o download e utilização das imagens necessárias
 
-Requisitos
-
-Os requisitos principais foram todos atendidos, sendo eles:
+Funcionalidades
 
 Tela de Home com duas abas:
 Filmes: Um grid exibindo os filmes melhores classificados.
@@ -29,11 +27,7 @@ Tela de detalhe do filme com informações dos gêneros;
 
 Favoritar um filme na tela de detalhe com armazenamento local. 
 
-
-Extras
-
-Como extra foi realizado a seguinte tarefa:
-
 Ação de remover o filme da lista de Favoritos com swipe.
+
 Adequação do tema do aplicativo pra ter uma sensação mais agradável ao 
 usuário sendo mais parecida com uma sala de cinema
