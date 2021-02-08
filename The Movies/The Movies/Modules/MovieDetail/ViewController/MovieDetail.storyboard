@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro.ttf">
+            <string>SFPro-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Movie Detail View Controller-->
+        <scene sceneID="fBl-uE-Dxa">
+            <objects>
+                <viewController storyboardIdentifier="MovieDetailViewController" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="h4t-by-peG" customClass="MovieDetailViewController" customModule="The_Movies" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="M08-Sc-LTz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="94S-Gb-hxB">
+                                <rect key="frame" x="10" y="88" width="394" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="KM3-Nc-k07"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Release date:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jeg-8s-ccv">
+                                <rect key="frame" x="20" y="308" width="102.5" height="20"/>
+                                <fontDescription key="fontDescription" name="SFPro-Regular" family="SF Pro" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Weo-1e-IDP">
+                                <rect key="frame" x="20" y="336" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" name="SFPro-Regular" family="SF Pro" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VqD-ND-nAU" userLabel="Overview">
+                                <rect key="frame" x="20" y="352" width="374" height="203"/>
+                                <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+                                <fontDescription key="fontDescription" name="SFPro-Regular" family="SF Pro" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="31/12/1999" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xRL-nV-WlF">
+                                <rect key="frame" x="130.5" y="308" width="83.5" height="20"/>
+                                <fontDescription key="fontDescription" name="SFPro-Regular" family="SF Pro" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="euF-OU-HGh"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="euF-OU-HGh" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="VqD-ND-nAU" secondAttribute="bottom" constant="20" id="2JY-Bk-PW1"/>
+                            <constraint firstItem="94S-Gb-hxB" firstAttribute="top" secondItem="euF-OU-HGh" secondAttribute="top" id="2LH-VS-5Z2"/>
+                            <constraint firstItem="Weo-1e-IDP" firstAttribute="leading" secondItem="Jeg-8s-ccv" secondAttribute="leading" id="4H9-e9-xtL"/>
+                            <constraint firstItem="Weo-1e-IDP" firstAttribute="top" secondItem="Jeg-8s-ccv" secondAttribute="bottom" constant="8" id="AMC-Js-NsH"/>
+                            <constraint firstItem="xRL-nV-WlF" firstAttribute="centerY" secondItem="Jeg-8s-ccv" secondAttribute="centerY" id="R9R-qV-WIT"/>
+                            <constraint firstItem="Jeg-8s-ccv" firstAttribute="leading" secondItem="euF-OU-HGh" secondAttribute="leading" constant="20" id="UCc-Mr-Z7F"/>
+                            <constraint firstItem="xRL-nV-WlF" firstAttribute="leading" secondItem="Jeg-8s-ccv" secondAttribute="trailing" constant="8" id="YUH-ic-cO2"/>
+                            <constraint firstItem="VqD-ND-nAU" firstAttribute="top" secondItem="Weo-1e-IDP" secondAttribute="bottom" constant="16" id="bVg-Fg-YoP"/>
+                            <constraint firstItem="VqD-ND-nAU" firstAttribute="leading" secondItem="Weo-1e-IDP" secondAttribute="leading" id="cB6-aG-fbP"/>
+                            <constraint firstItem="94S-Gb-hxB" firstAttribute="leading" secondItem="euF-OU-HGh" secondAttribute="leading" constant="10" id="hmt-IC-bdd"/>
+                            <constraint firstItem="euF-OU-HGh" firstAttribute="trailing" secondItem="VqD-ND-nAU" secondAttribute="trailing" constant="20" id="lCW-1M-aqX"/>
+                            <constraint firstItem="Jeg-8s-ccv" firstAttribute="top" secondItem="94S-Gb-hxB" secondAttribute="bottom" constant="20" id="tLr-W1-t5e"/>
+                            <constraint firstItem="euF-OU-HGh" firstAttribute="trailing" secondItem="94S-Gb-hxB" secondAttribute="trailing" constant="10" id="xNX-Ai-YVY"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="eI7-vQ-MmE"/>
+                    <connections>
+                        <outlet property="movieGenres" destination="Weo-1e-IDP" id="i3l-zK-qg0"/>
+                        <outlet property="movieOverview" destination="VqD-ND-nAU" id="tSL-aA-SKs"/>
+                        <outlet property="moviePicture" destination="94S-Gb-hxB" id="oCx-HB-9qD"/>
+                        <outlet property="movieReleaseDate" destination="xRL-nV-WlF" id="M0n-EL-1vx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Amg-4O-b3J" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="644.92753623188412" y="-114.50892857142857"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="S40-jX-fCU">
+            <objects>
+                <navigationController storyboardIdentifier="MovieDetailNavigationController" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="5Eq-Yf-9DL" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="LYV-Lw-eqv">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="h4t-by-peG" kind="relationship" relationship="rootViewController" id="cYy-li-aen"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IbU-yu-BbP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-265.21739130434787" y="-114.50892857142857"/>
+        </scene>
+    </scenes>
+</document>
