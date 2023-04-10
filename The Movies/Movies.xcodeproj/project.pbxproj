@@ -667,8 +667,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TGBHB6DPPU;
-				INFOPLIST_FILE = "";
-				"INFOPLIST_FILE[sdk=*]" = "/Users/rafaelnmelo/Projects/inchurch-ios-challenge/The Movies/The Movies/Resources/Configuration/Info.plist";
+				INFOPLIST_FILE = "/Users/larfea/Projetos/Movies/The Movies/Movies/Resources/Configuration/Info.plist";
+				"INFOPLIST_FILE[sdk=*]" = "/Users/larfea/Projetos/Movies/The Movies/Movies/Resources/Configuration/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -688,8 +688,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TGBHB6DPPU;
-				INFOPLIST_FILE = "";
-				"INFOPLIST_FILE[sdk=*]" = "/Users/rafaelnmelo/Projects/inchurch-ios-challenge/The Movies/The Movies/Resources/Configuration/Info.plist";
+				INFOPLIST_FILE = "/Users/larfea/Projetos/Movies/The Movies/Movies/Resources/Configuration/Info.plist";
+				"INFOPLIST_FILE[sdk=*]" = "/Users/larfea/Projetos/Movies/The Movies/Movies/Resources/Configuration/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
