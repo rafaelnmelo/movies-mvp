@@ -125,7 +125,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1314.4927536231885" y="800.89285714285711"/>
+            <point key="canvasLocation" x="825" y="1531"/>
         </scene>
         <!--MovieDetailViewController-->
         <scene sceneID="5Ja-yb-AcM">
@@ -135,7 +135,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TTY-we-wmV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1314" y="1207"/>
+            <point key="canvasLocation" x="1459" y="1531"/>
         </scene>
         <!--Favorites View Controller-->
         <scene sceneID="zcs-ri-eBl">
@@ -207,7 +207,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ai7-Qs-oPW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2050.7246376811595" y="800.89285714285711"/>
+            <point key="canvasLocation" x="-726" y="1531"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="o2i-cb-fsw">
@@ -234,7 +234,7 @@
         <!--Movies-->
         <scene sceneID="fxs-Cv-U2c">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dd6-Zk-9n8" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="MainNavigationController" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="dd6-Zk-9n8" customClass="MainNavigationController" customModule="Movies" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Movies" selectedImage="homekit" catalog="system" id="NjN-sJ-eUD">
                         <imageReference key="image" image="homekit" catalog="system" renderingMode="template"/>
                     </tabBarItem>
@@ -254,7 +254,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q6Z-7d-aba" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="405.79710144927537" y="800.89285714285711"/>
+            <point key="canvasLocation" x="-16" y="1531"/>
         </scene>
     </scenes>
     <resources>

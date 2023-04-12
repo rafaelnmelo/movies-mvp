@@ -98,14 +98,20 @@ extension MovieDetailViewController {
     }
     
     private func setupStarRightBar() {
-        let image = UIBarButtonItem(image: UIImage(named: "star"), style: .plain, target: self, action: #selector(favorite))
-        image.tintColor = .systemYellow
+        let image = UIBarButtonItem(image: UIImage(named: "star"),
+                                    style: .plain,
+                                    target: self,
+                                    action: #selector(favorite))
+        image.tintColor = .cyan
         self.navigationItem.rightBarButtonItem = image
     }
     
     private func fillStarRightBar() {
-        let image = UIBarButtonItem(image: UIImage(named: "starfill"), style: .plain, target: self, action: #selector(favorite))
-        image.tintColor = .systemYellow
+        let image = UIBarButtonItem(image: UIImage(named: "starfill"),
+                                    style: .plain,
+                                    target: self,
+                                    action: #selector(favorite))
+        image.tintColor = .cyan
         self.navigationItem.rightBarButtonItem = image
     }
 }
