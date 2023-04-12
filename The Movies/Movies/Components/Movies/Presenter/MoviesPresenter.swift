@@ -39,7 +39,8 @@ class MoviesPresenter {
 extension MoviesPresenter {
 
     func movieMapper(movieData: MovieListModel) {
-        self.movieData = movieData.results
+        guard let result = movieData.results else {return}
+        self.movieData = result
     }
     
 }

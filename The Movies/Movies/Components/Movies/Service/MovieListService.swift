@@ -15,8 +15,8 @@ final class MovieListService {
             switch result {
             case .success(let data):
                 do {
-                    let movieListModel = try JSONDecoder().decode(MovieListModel.self, from: data)
-                    completionhandler(.success(movieListModel))
+                    let movieList = try JSONDecoder().decode(MovieListModel.self, from: data)
+                    completionhandler(.success(movieList))
                 } catch {
                     completionhandler(.failure(.decodeError))
                 }
