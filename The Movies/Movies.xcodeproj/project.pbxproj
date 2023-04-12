@@ -96,14 +96,6 @@
 			path = Presenter;
 			sourceTree = "<group>";
 		};
-		2D57D39925B9A72400C1A6D7 /* UserDefaultsManager */ = {
-			isa = PBXGroup;
-			children = (
-				2D57D39A25B9A77200C1A6D7 /* UserDefaultsManager.swift */,
-			);
-			path = UserDefaultsManager;
-			sourceTree = "<group>";
-		};
 		2D57D39F25B9B6E300C1A6D7 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -138,13 +130,13 @@
 			path = Favorites;
 			sourceTree = "<group>";
 		};
-		2D63DB2325B87CDA00801ABE /* GenericTableViewCell */ = {
+		2D63DB2325B87CDA00801ABE /* Generic TableView Cell */ = {
 			isa = PBXGroup;
 			children = (
 				2D63DB2725B87D5B00801ABE /* GenericTableViewCell.xib */,
 				2D63DB2425B87D1200801ABE /* GenericTableViewCellController.swift */,
 			);
-			path = GenericTableViewCell;
+			path = "Generic TableView Cell";
 			sourceTree = "<group>";
 		};
 		2D75B4D125B735F800A13982 = {
@@ -168,12 +160,10 @@
 		2D75B4DC25B735F800A13982 /* Movies */ = {
 			isa = PBXGroup;
 			children = (
-				2D75B4F525B736B100A13982 /* Application */,
-				2D75B4F825B7370A00A13982 /* Model */,
-				2D75B4F925B7372E00A13982 /* Modules */,
+				2D75B4F525B736B100A13982 /* ApplicationStart */,
+				2D75B4F925B7372E00A13982 /* Components */,
 				2D75B4F225B7366B00A13982 /* Resources */,
-				2D75B4FA25B7374100A13982 /* Service */,
-				2D57D39925B9A72400C1A6D7 /* UserDefaultsManager */,
+				8DAD074B29E7104F00F6A97A /* SupportingFiles */,
 				2D75B4F625B736E700A13982 /* Utils */,
 			);
 			path = Movies;
@@ -183,7 +173,6 @@
 			isa = PBXGroup;
 			children = (
 				2D75B4F325B7368700A13982 /* Assets */,
-				2D75B4F425B7369300A13982 /* Configuration */,
 				2D63DB1125B86DB100801ABE /* Fonts */,
 			);
 			path = Resources;
@@ -205,70 +194,63 @@
 			path = Configuration;
 			sourceTree = "<group>";
 		};
-		2D75B4F525B736B100A13982 /* Application */ = {
+		2D75B4F525B736B100A13982 /* ApplicationStart */ = {
 			isa = PBXGroup;
 			children = (
 				2D75B4DD25B735F800A13982 /* AppDelegate.swift */,
 				2D75B4DF25B735F800A13982 /* SceneDelegate.swift */,
 				2D75B4E825B735F800A13982 /* LaunchScreen.storyboard */,
 			);
-			path = Application;
+			path = ApplicationStart;
 			sourceTree = "<group>";
 		};
 		2D75B4F625B736E700A13982 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				2DE01F6525D1707F0094EBAB /* CollectionReusableView */,
-				2D63DB2325B87CDA00801ABE /* GenericTableViewCell */,
-				2D75B4F725B736FA00A13982 /* GenericCollectionCell */,
+				2D75B53A25B74B1100A13982 /* NetworkManager.swift */,
+				2D75B54125B74BD600A13982 /* ResultResponse.swift */,
+				2D75B54725B74C9700A13982 /* ResponseError.swift */,
+				2D75B54425B74C8700A13982 /* Reachability.swift */,
+				2D75B54A25B74CA000A13982 /* Endpoint.swift */,
+				2D57D39A25B9A77200C1A6D7 /* UserDefaultsManager.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
 		};
-		2D75B4F725B736FA00A13982 /* GenericCollectionCell */ = {
+		2D75B4F725B736FA00A13982 /* Generic Collection Cell */ = {
 			isa = PBXGroup;
 			children = (
 				2D75B56525B7682A00A13982 /* GenericCollectionViewCell.xib */,
 				2D75B56825B7685200A13982 /* GenericCollectionViewCellController.swift */,
 			);
-			path = GenericCollectionCell;
+			path = "Generic Collection Cell";
 			sourceTree = "<group>";
 		};
-		2D75B4F825B7370A00A13982 /* Model */ = {
+		2D75B4F825B7370A00A13982 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				2D75B55C25B75E9400A13982 /* MovieListModel.swift */,
 				2D75B56225B7637700A13982 /* GenreListModel.swift */,
 			);
-			path = Model;
+			path = Models;
 			sourceTree = "<group>";
 		};
-		2D75B4F925B7372E00A13982 /* Modules */ = {
+		2D75B4F925B7372E00A13982 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				8DAD074C29E7106D00F6A97A /* Commons */,
 				2D63DB1425B86E7C00801ABE /* Favorites */,
 				2D75B56B25B7692B00A13982 /* MovieDetail */,
 				2D75B52F25B7446500A13982 /* Movies */,
 			);
-			path = Modules;
-			sourceTree = "<group>";
-		};
-		2D75B4FA25B7374100A13982 /* Service */ = {
-			isa = PBXGroup;
-			children = (
-				2D75B55525B75B6F00A13982 /* Methods */,
-				2D75B55325B75B6300A13982 /* Manager */,
-				2D75B54F25B75B4F00A13982 /* Responses */,
-				2D75B54D25B75A8C00A13982 /* Network */,
-				2D75B55125B75B5800A13982 /* Endpoint */,
-			);
-			path = Service;
+			path = Components;
 			sourceTree = "<group>";
 		};
 		2D75B52F25B7446500A13982 /* Movies */ = {
 			isa = PBXGroup;
 			children = (
 				2D54129F25B890F300791928 /* Presenter */,
+				8DAD074F29E7113100F6A97A /* Service */,
 				2D75B53125B744CC00A13982 /* ViewController */,
 			);
 			path = Movies;
@@ -283,52 +265,11 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		2D75B54D25B75A8C00A13982 /* Network */ = {
-			isa = PBXGroup;
-			children = (
-				2D75B54425B74C8700A13982 /* Reachability.swift */,
-			);
-			path = Network;
-			sourceTree = "<group>";
-		};
-		2D75B54F25B75B4F00A13982 /* Responses */ = {
-			isa = PBXGroup;
-			children = (
-				2D75B54125B74BD600A13982 /* ResultResponse.swift */,
-				2D75B54725B74C9700A13982 /* ResponseError.swift */,
-			);
-			path = Responses;
-			sourceTree = "<group>";
-		};
-		2D75B55125B75B5800A13982 /* Endpoint */ = {
-			isa = PBXGroup;
-			children = (
-				2D75B54A25B74CA000A13982 /* Endpoint.swift */,
-			);
-			path = Endpoint;
-			sourceTree = "<group>";
-		};
-		2D75B55325B75B6300A13982 /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-				2D75B53A25B74B1100A13982 /* NetworkManager.swift */,
-			);
-			path = Manager;
-			sourceTree = "<group>";
-		};
-		2D75B55525B75B6F00A13982 /* Methods */ = {
-			isa = PBXGroup;
-			children = (
-				2D75B55625B75B8700A13982 /* MovieListService.swift */,
-				2D75B55925B75B9F00A13982 /* GenreListService.swift */,
-			);
-			path = Methods;
-			sourceTree = "<group>";
-		};
 		2D75B56B25B7692B00A13982 /* MovieDetail */ = {
 			isa = PBXGroup;
 			children = (
 				2D57D3F925B9E22100C1A6D7 /* Presenter */,
+				8DAD074E29E7112500F6A97A /* Service */,
 				2D57D39F25B9B6E300C1A6D7 /* ViewController */,
 			);
 			path = MovieDetail;
@@ -350,13 +291,13 @@
 			path = Presenter;
 			sourceTree = "<group>";
 		};
-		2DE01F6525D1707F0094EBAB /* CollectionReusableView */ = {
+		2DE01F6525D1707F0094EBAB /* Collection Reusable View */ = {
 			isa = PBXGroup;
 			children = (
 				2DE01F6625D171CD0094EBAB /* CollectionReusableViewController.swift */,
 				2DE01F6925D172140094EBAB /* CollectionReusableView.xib */,
 			);
-			path = CollectionReusableView;
+			path = "Collection Reusable View";
 			sourceTree = "<group>";
 		};
 		2EAFC20C918F7D930C2D596C /* Pods */ = {
@@ -374,6 +315,49 @@
 				0BA2D1E0C13D5A9D4AC94373 /* Pods_The_Movies.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8DAD074B29E7104F00F6A97A /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				2D75B4F425B7369300A13982 /* Configuration */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		8DAD074C29E7106D00F6A97A /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				8DAD074D29E710B800F6A97A /* Views */,
+				2D75B4F825B7370A00A13982 /* Models */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		8DAD074D29E710B800F6A97A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2DE01F6525D1707F0094EBAB /* Collection Reusable View */,
+				2D63DB2325B87CDA00801ABE /* Generic TableView Cell */,
+				2D75B4F725B736FA00A13982 /* Generic Collection Cell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8DAD074E29E7112500F6A97A /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				2D75B55925B75B9F00A13982 /* GenreListService.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		8DAD074F29E7113100F6A97A /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				2D75B55625B75B8700A13982 /* MovieListService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -667,8 +651,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TGBHB6DPPU;
-				INFOPLIST_FILE = "/Users/larfea/Projetos/Movies/The Movies/Movies/Resources/Configuration/Info.plist";
-				"INFOPLIST_FILE[sdk=*]" = "/Users/larfea/Projetos/Movies/The Movies/Movies/Resources/Configuration/Info.plist";
+				INFOPLIST_FILE = "/Users/larfea/Projetos/Movies/The Movies/Movies/SupportingFiles/Configuration/Info.plist";
+				"INFOPLIST_FILE[sdk=*]" = "/Users/larfea/Projetos/Movies/The Movies/Movies/SupportingFiles/Configuration/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -688,8 +672,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TGBHB6DPPU;
-				INFOPLIST_FILE = "/Users/larfea/Projetos/Movies/The Movies/Movies/Resources/Configuration/Info.plist";
-				"INFOPLIST_FILE[sdk=*]" = "/Users/larfea/Projetos/Movies/The Movies/Movies/Resources/Configuration/Info.plist";
+				INFOPLIST_FILE = "/Users/larfea/Projetos/Movies/The Movies/Movies/SupportingFiles/Configuration/Info.plist";
+				"INFOPLIST_FILE[sdk=*]" = "/Users/larfea/Projetos/Movies/The Movies/Movies/SupportingFiles/Configuration/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
