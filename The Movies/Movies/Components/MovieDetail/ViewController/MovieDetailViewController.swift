@@ -5,8 +5,9 @@ protocol MoviesDetailViewControllerDelegate: AnyObject {
 }
 
 
-class MovieDetailViewController: UIViewController {
+class MovieDetailViewController: BaseViewController {
     
+    @IBOutlet weak var movieTitle: UILabel!
     @IBOutlet weak var moviePicture: UIImageView!
     @IBOutlet weak var movieReleaseDate: UILabel!
     @IBOutlet weak var movieGenres: UILabel!
@@ -24,6 +25,7 @@ class MovieDetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.showBackButtonTitle()
         setupPresenter()
         presenter?.getGenres()
         if presenter?.checkFav(data: data) == true {
@@ -78,7 +80,7 @@ extension MovieDetailViewController {
         
         self.moviePicture.kf.setImage(with: url)
         
-        self.title = data?.title
+        self.movieTitle.text = data?.originalTitle
         self.movieOverview.text = data?.overview
         self.movieReleaseDate.text = data?.releaseDate
         self.movieGenres.text = ""
@@ -98,21 +100,13 @@ extension MovieDetailViewController {
     }
     
     private func setupStarRightBar() {
-        let image = UIBarButtonItem(image: UIImage(named: "star"),
-                                    style: .plain,
-                                    target: self,
-                                    action: #selector(favorite))
-        image.tintColor = .cyan
-        self.navigationItem.rightBarButtonItem = image
+        self.setRightBarButtonItem(imageName: "star",
+                                   action: #selector(favorite))
     }
     
     private func fillStarRightBar() {
-        let image = UIBarButtonItem(image: UIImage(named: "starfill"),
-                                    style: .plain,
-                                    target: self,
-                                    action: #selector(favorite))
-        image.tintColor = .cyan
-        self.navigationItem.rightBarButtonItem = image
+        self.setRightBarButtonItem(imageName: "starfill",
+                                   action: #selector(favorite))
     }
 }
 
