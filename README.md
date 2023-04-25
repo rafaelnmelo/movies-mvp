@@ -2,16 +2,16 @@ Arquitetura do Projeto
 
 Arquitetura utilizada: MVP
 
-Foi utilizada esta arquitetura pois além de minha maior familiaridade com a mesma, ele proporciona 
-uma melhor separação das camadas do projeto. Tendo a Model como a camada de dados, a View 
-com todos os elementos gráficos e finalmente o Presenter, que tem por sua missão integrar os 
-dados da Model de uma forma apresentável para cada View 
+Foi utilizada esta arquitetura pois al√©m de minha maior familiaridade com a mesma, ele proporciona 
+uma melhor separa√ß√£o das camadas do projeto. Tendo a Model como a camada de dados, a View 
+com todos os elementos gr‚Ä°ficos e finalmente o Presenter, que tem por sua miss‚Äπo integrar os 
+dados da Model de uma forma apresent‚Ä°vel para cada View 
 
 Bibliotecas Utilizadas
 
-Alamofire: utilizada para facilitar o gerenciamento de requisições da API do TheMovieDB.
+Alamofire: utilizada para facilitar o gerenciamento de requisi√ß√µes da API do TheMovieDB.
 
-Kingfisher: utilizado para efetuar o download e utilização das imagens necessárias
+Kingfisher: utilizado para efetuar o download e utiliza√ß√£o das imagens necess‚Ä°rias
 
 Funcionalidades
 
@@ -23,11 +23,11 @@ Loading no carregamento da listagem de filmes;
 
 Tela de tratamento de erros (falta de internet e erro na api) na tela de Filmes;
 
-Tela de detalhe do filme com informações dos gêneros;
+Tela de detalhe do filme com informa√ß√µes dos g√™neros;
 
 Favoritar um filme na tela de detalhe com armazenamento local. 
 
-Ação de remover o filme da lista de Favoritos com swipe.
+A√ßao de remover o filme da lista de Favoritos com swipe.
 
-Adequação do tema do aplicativo pra ter uma sensação mais agradável ao 
-usuário sendo mais parecida com uma sala de cinema
+Adequa√ß√£o do tema do aplicativo pra ter uma sensa√ß√£o mais agrad√°vel ao 
+usu√°rio sendo mais parecida com uma sala de cinema
