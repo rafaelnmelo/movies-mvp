@@ -1,4 +1,4 @@
-Arquitetura do Projeto
+## Arquitetura do Projeto
 
 Arquitetura utilizada: MVP
 
@@ -7,13 +7,13 @@ uma melhor separação das camadas do projeto. Tendo a Model como a camada de da
 com todos os elementos gr‡ficos e finalmente o Presenter, que tem por sua miss‹o integrar os 
 dados da Model de uma forma apresent‡vel para cada View 
 
-Bibliotecas Utilizadas
+## Bibliotecas Utilizadas
 
 Alamofire: utilizada para facilitar o gerenciamento de requisições da API do TheMovieDB.
 
 Kingfisher: utilizado para efetuar o download e utilização das imagens necess‡rias
 
-Funcionalidades
+## Funcionalidades
 
 Tela de Home com duas abas:
 Filmes: Um grid exibindo os filmes melhores classificados.
